@@ -12,7 +12,7 @@ const LoginPage = () => {
   const handleLogin = () => {
     if (email && password) {
       dispatch(login({ email }));
-      navigate('/');
+      navigate('/LoginPage/');
     } else {
       alert('Please enter valid credentials');
     }
