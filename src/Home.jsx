@@ -21,7 +21,7 @@ const Home = () => {
             <button onClick={handleLogout}>Logout</button>
           </>
         ) : (
-          <Link to="/LoginPage/login"><button>Login</button></Link>
+          <Link to="/login"><button>Login</button></Link>
         )}
       </div>
     </div>
